@@ -7,7 +7,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MudBlazor.Services;
 using Stl.Fusion;
-using System;
 using WebMarkupMin.AspNetCore3;
 
 namespace Equality.Server
@@ -51,7 +50,6 @@ namespace Equality.Server
             services
                 .AddHttpContextAccessor()
                 .Configure<HubOptions>(x => x.EnableDetailedErrors = true)
-                .AddSingleton(_ => new UpdateDelayer(TimeSpan.FromSeconds(0.5)))
                 .AddWebMarkupMin(x =>
                 {
                     x.DisablePoweredByHttpHeaders = true;

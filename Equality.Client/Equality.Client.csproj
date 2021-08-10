@@ -3,7 +3,7 @@
     <Version>0.0.0.0</Version>
     <Authors>Tom Nuen</Authors>
     <LangVersion>preview</LangVersion>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Copyright>Copyright © TNTXT 2021-2022</Copyright>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -15,17 +15,17 @@
     <PackageReference Include="Blazored.LocalStorage" Version="4.1.2" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
     <PackageReference Include="Humanizer" Version="2.11.10" />
-    <PackageReference Include="LiveSharp" Version="2.0.13" />
+    <PackageReference Include="LiveSharp" Version="2.0.20" />
     <PackageReference Include="Lykke.Icon.Sdk" Version="0.2.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.8" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0-preview.6.21355.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0-preview.6.21355.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.0-preview.6.21355.2" />
     <PackageReference Include="MudBlazor" Version="5.1.0" />
     <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" PrivateAssets="all" />
-    <PackageReference Include="ReactiveUI.Blazor" Version="14.1.1" />
+    <PackageReference Include="ReactiveUI.Blazor" Version="14.2.1" />
     <PackageReference Include="Serilog.Sinks.BrowserConsole" Version="1.0.0" />
     <PackageReference Include="Serilog.Sinks.BrowserHttp" Version="1.0.0-dev-00021" />
     <PackageReference Include="ServiceStack.Text" Version="5.11.0" />
-    <PackageReference Include="Stl.Fusion.Blazor" Version="1.4.9" />
+    <PackageReference Include="Stl.Fusion.Blazor" Version="1.6.1" />
   </ItemGroup>
 </Project>
