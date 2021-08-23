@@ -10,6 +10,7 @@ using Serilog.Core;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using HttpClient = Equality.Client.Remote.HttpClient;
 
 namespace Equality.Client
 {

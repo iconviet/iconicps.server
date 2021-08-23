@@ -19,9 +19,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LiveSharp" Version="2.0.20" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.0-preview.6.21355.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.0-preview.7.21378.6" />
     <PackageReference Include="Serilog.AspNetCore" Version="4.1.1-dev-00229" />
-    <PackageReference Include="Stl.Fusion.Server" Version="1.6.1" />
+    <PackageReference Include="Stl.Fusion.Server" Version="1.8.16" />
     <PackageReference Include="WebMarkupMin.AspNetCore3" Version="2.10.0" />
   </ItemGroup>
 </Project>
